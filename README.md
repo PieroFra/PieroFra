@@ -82,7 +82,7 @@ All three projects are actively maintained with recurring verification passes:
 I am open to collaborations, Python/Blender tool development, technical art pipelines, and freelance work.
 
 - **GitHub Issues & Inquiries**: [@PieroFra](https://github.com/PieroFra) on GitHub (or open an issue on the relevant repository tracker)
-- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) · [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) · [Author profile](https://extensions.blender.org/author/pierofra/)
+- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) · [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) · [Author profile](https://extensions.blender.org/author/96040/)
 - **XERJ Corpus Hub**: [hub.xerj.org/contributors/PieroFra](https://hub.xerj.org/contributors/PieroFra)
 - **Reddit**: [u/Previous-Nebula7736](https://www.reddit.com/user/Previous-Nebula7736/) (release posts and workflow threads on `r/blender`)
 - **ArtStation**: [artstation.com/pierofra](https://www.artstation.com/pierofra/)
