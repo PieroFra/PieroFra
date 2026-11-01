@@ -8,7 +8,7 @@ Every add-on here ships with a deterministic headless regression suite, publishe
 
 **Featured project: DEF Controller Auto**  
 Generate production-ready rig controllers from DEF bones in one click.  
-[Watch the demo](#def-controller-auto-ctrl_def-v020) · [Install from Blender Extensions](https://extensions.blender.org/add-ons/ctrl-def/) · [Read the documentation](https://github.com/PieroFra/def-controller-auto#readme)
+[Watch the demo](#def-controller-auto-fk-controller-generation-from-a-def_-chain) · [1080p MP4](assets/def_controller_demo.mp4) · [Install from Blender Extensions](https://extensions.blender.org/add-ons/ctrl-def/) · [Read the documentation](https://github.com/PieroFra/def-controller-auto#readme)
 
 ## Add-ons
 
