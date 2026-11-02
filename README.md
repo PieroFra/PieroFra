@@ -4,24 +4,27 @@
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/PieroFra/badge.svg)](https://hub.xerj.org/contributors/PieroFra)
 [![Blender](https://img.shields.io/badge/Blender-4.2%20LTS--5.2%2B-EA7600?logo=blender&logoColor=white)](https://www.blender.org/)
-[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-644%2B%20verified%20checks-2EA043)](#by-the-numbers)
+[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-666%2B%20verified%20checks-2EA043)](#by-the-numbers)
 [![License](https://img.shields.io/badge/License-GPL--3.0--or--later-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 > **I build production-ready Blender tools that make rigging and UV workflows faster, safer and reversible.**
 
 CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer focused on rigging automation, non-destructive deformation workflows, and UV pipelines for Blender 4.2 LTS through 5.2+.
 
-**Featured project: DEF Controller Auto (`CTRL_DEF` v0.2.0)**  
-Generate production-ready FK rig controllers with shared custom shapes from `DEF_` bones in one click, with zero dependency cycles.  
-[Watch the live GIF demo](#def-controller-auto-fk-controller-generation-from-a-def_-chain) Â· [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.gif) Â· [1080p MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.mp4) Â· [Install from Blender Extensions](https://extensions.blender.org/add-ons/ctrl-def/) Â· [Documentation](https://github.com/PieroFra/def-controller-auto#readme)
+**Featured project: BBone to Bones (`v0.1.0`)**  
+Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
+[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo.gif) | [GitHub Release v0.1.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.1.0) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
 ## Start Here
 
 Not sure which add-on to try first? Pick your workflow:
 
-- **Rigging a character from a `DEF_` skeleton?** Start with **[DEF Controller Auto](https://extensions.blender.org/add-ons/ctrl-def/)**: select your `DEF_` bones in Edit Mode and generate a clean FK controller chain in one click.
-- **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** Pair it with **[Auto Copy Transforms DEF](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** to preview and build the entire constraint stack non-destructively.
-- **Preparing meshes for baking or game engines?** Try **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** for curvature-driven seam planning, texel density normalization, UDIM packing, and an optional RizomUV bridge.
+The **Rigging Suite** is 3 independent add-ons: zero dependencies between them, auto-unified in the `Rigging Suite` tab when installed together.
+
+1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://github.com/PieroFra/bbone-to-bones)** (`v0.1.0`)
+2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.2.0`)
+3. **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** -> **[Auto Copy Transforms DEF (`A.C.T.D.`)](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** (`v1.3.0`)
+4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.35.1`)
 
 ## By the Numbers
 
@@ -30,18 +33,23 @@ Every project here ships with a deterministic headless regression suite, publish
 | Metric | Value |
 |---|---|
 | **Blender Compatibility** | Blender `4.2 LTS` through `5.2 LTS` (officially tested headless & GUI on 5.2 LTS) |
-| **Automated Headless Verification** | **644 verified checks** in the A.C.T.D. suite alone (12 suites, headless, `VERIFY_OK`), plus smoke and end-to-end suites on the other two add-ons (`14` smoke checks and `75` deterministic UI label geometry checks on Intelligent UV) |
-| **Published Releases** | **15 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `4` on CTRL_DEF up to `v0.2.0`, `3` on Intelligent UV up to `v0.35.1`) |
-| **Official Blender Extensions** | **2 approved & live** (`ctrl-def` and `auto-copy-transforms-def`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
+| **Automated Headless Verification** | **666+ verified checks**: `644` in 12 suites on Auto Copy Transforms DEF, `22` headless + engine round-trip checks on BBone to Bones (in Godot 4.7.2/4.3 and Unity 6000.6), `14` smoke + `75` UI geometry checks on Intelligent UV |
+| **Published Releases** | **16 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `4` on CTRL_DEF up to `v0.2.0`, `3` on Intelligent UV up to `v0.35.1`, `1` on BBone to Bones `v0.1.0`) |
+| **Official Blender Extensions** | **2 approved & live** (`ctrl-def` and `auto-copy-transforms-def`), **1 submitted** (`bbone-to-bones`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
 
 ## Add-ons
 
 <!-- AUTO-VERSIONS:START -->
 | Add-on | Version | Extensions | Repo | Tracker |
 |---|---|---|---|---|
+| BBone to Bones | v0.1.0 | *Submitted / GitHub Release* | [PieroFra/bbone-to-bones](https://github.com/PieroFra/bbone-to-bones) | [Issues](https://github.com/PieroFra/bbone-to-bones/issues) |
 | DEF Controller Auto (`CTRL_DEF`) | v0.2.0 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
 | Auto Copy Transforms DEF (`A.C.T.D.`) | v1.3.0 | [Live listing](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) | [PieroFra/auto-copy-transforms-def](https://github.com/PieroFra/auto-copy-transforms-def) | [Issues](https://github.com/PieroFra/auto-copy-transforms-def/issues) |
 | Intelligent UV Mapping | v0.35.1 | *GitHub Release* | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
+
+### BBone to Bones (v0.1.0)
+
+Converts Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`). Submitted to Blender Extensions and published as [GitHub Release v0.1.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.1.0).
 
 ### DEF Controller Auto (`CTRL_DEF` v0.2.0)
 
@@ -57,6 +65,10 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ## Demos
 
+### BBone to Bones: Bendy Bones to game-ready chains
+
+![BBone to Bones demo](assets/bbone_to_bones_demo.gif)
+
 ### DEF Controller Auto: FK controller generation from a `DEF_` chain
 
 ![DEF Controller Auto demo](assets/def_controller_demo.gif)
@@ -71,7 +83,9 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ## Roadmap & Active Maintenance
 
-All three projects are actively maintained with recurring verification passes:
+All four projects are actively maintained with recurring verification passes:
+
+- **BBone to Bones**: Blender Extensions review follow-up, engine round-trip regression on Godot and Unity, and release archive SHA256 validation.
 
 - **DEF Controller Auto (`CTRL_DEF`)**: custom widget library presets, multi-limb batch templates, and Blender 4.2 - 5.2 LTS CI matrix.
 - **Auto Copy Transforms DEF (`A.C.T.D.`)**: one-click restore operator from `actd_replace_backup_*.json` snapshots, extended multi-armature batch rules, and automated release archive validation in CI.
@@ -81,8 +95,10 @@ All three projects are actively maintained with recurring verification passes:
 
 I am open to collaborations, Python/Blender tool development, technical art pipelines, and freelance work.
 
+> **What rigging or UV step is still slowing you down?** Open an issue on any tracker with the workflow you want automated next.
+
 - **GitHub Issues & Inquiries**: [@PieroFra](https://github.com/PieroFra) on GitHub (or open an issue on the relevant repository tracker)
-- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) Â· [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) Â· [Author profile](https://extensions.blender.org/author/96040/)
+- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) | [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) | [Author profile](https://extensions.blender.org/author/96040/)
 - **XERJ Corpus Hub**: [hub.xerj.org/contributors/PieroFra](https://hub.xerj.org/contributors/PieroFra)
 - **Reddit**: [u/Previous-Nebula7736](https://www.reddit.com/user/Previous-Nebula7736/) (release posts and workflow threads on `r/blender`)
 - **ArtStation**: [artstation.com/pierofra](https://www.artstation.com/pierofra/)

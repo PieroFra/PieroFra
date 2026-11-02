@@ -3,6 +3,7 @@
 PieroFra con le versioni reali dichiarate nei manifest dei singoli progetti.
 
 Sorgenti letti (blender_manifest.toml di ogni progetto):
+  - ../bbone_to_bones/blender_manifest.toml  -> versione BBone to Bones
   - ../CTRL_DEF/blender_manifest.toml        -> versione CTRL_DEF
   - ../ACTD/packaging/blender_manifest.toml  -> versione A.C.T.D.
   - ../intelligent_uv/blender_manifest.toml  -> versione Intelligent UV
@@ -27,6 +28,7 @@ README = REPO / "README.md"
 
 # Mapping: (nome visualizzato, file manifest, slug GitHub per le release)
 PROJECTS = [
+    ("BBone to Bones", WORKSPACE / "bbone_to_bones" / "blender_manifest.toml", "PieroFra/bbone-to-bones"),
     ("CTRL_DEF", WORKSPACE / "CTRL_DEF" / "blender_manifest.toml", "PieroFra/def-controller-auto"),
     ("A.C.T.D.", WORKSPACE / "ACTD" / "packaging" / "blender_manifest.toml", "PieroFra/auto-copy-transforms-def"),
     ("intelligent_uv", WORKSPACE / "intelligent_uv" / "blender_manifest.toml", "PieroFra/intelligent_uv"),
@@ -123,7 +125,9 @@ def main() -> int:
         return 1
 
     def patch_table_row(line: str) -> str:
-        if "CTRL_DEF" in line:
+        if "BBone to Bones" in line:
+            new = versions["BBone to Bones"]
+        elif "CTRL_DEF" in line:
             new = versions["CTRL_DEF"]
         elif "A.C.T.D." in line:
             new = versions["A.C.T.D."]
@@ -138,6 +142,11 @@ def main() -> int:
 
     # 2) Titoli delle sottosezioni e riferimenti incrociati nel testo.
     #    es. "### DEF Controller Auto (`CTRL_DEF` v0.2.0)" -> nuova versione.
+    text = re.sub(
+        r"(### BBone to Bones \(v)[0-9][0-9A-Za-z.]*\)",
+        r"\g<1>%s)" % versions["BBone to Bones"],
+        text,
+    )
     text = re.sub(
         r"(### Auto Copy Transforms DEF \(`A\.C\.T\.D\.` v)[0-9][0-9A-Za-z.]*\)",
         r"\g<1>%s)" % versions["A.C.T.D."],
@@ -165,8 +174,8 @@ def main() -> int:
     if text != original:
         README.write_text(text, encoding="utf-8", newline="\n")
     print(
-        "SYNC_VERSIONS_OK | ctrl_def=v%s | actd=v%s | intelligent_uv=v%s"
-        % (versions["CTRL_DEF"], versions["A.C.T.D."], versions["intelligent_uv"])
+        "SYNC_VERSIONS_OK | bbone_to_bones=v%s | ctrl_def=v%s | actd=v%s | intelligent_uv=v%s"
+        % (versions["BBone to Bones"], versions["CTRL_DEF"], versions["A.C.T.D."], versions["intelligent_uv"])
     )
     for avviso in avvisi:
         print("SYNC_VERSIONS_WARN | " + avviso)
