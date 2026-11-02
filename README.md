@@ -1,4 +1,4 @@
-![Blender Technical Art & Add-on Development](assets/banner-2026-11.png)
+![Blender Technical Art & Add-on Development](assets/banner-2026-11-v2.png)
 
 # Pierfrancesco Diodato (`PieroFra`)
 

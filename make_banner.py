@@ -34,7 +34,7 @@ SORGENTE_2 = os.path.join(RADICE, r"_promo_review\INTELLIGENT_UV\iuv_featured_19
 # che vivono nel repository, cosi' il banner resta rigenerabile da chiunque.
 RISERVA_1 = os.path.join(RADICE, r"PieroFra\assets\def_controller_demo.gif")
 RISERVA_2 = os.path.join(RADICE, r"PieroFra\assets\intelligent_uv_demo.gif")
-USCITA = os.path.join(RADICE, "PieroFra", "assets", "banner-2026-11.png")
+USCITA = os.path.join(RADICE, "PieroFra", "assets", "banner-2026-11-v2.png")
 
 
 def sfondo():
@@ -121,7 +121,7 @@ def main():
     y = scrivi("Rigging automation, non-destructive transforms, UV pipelines.",
                corpo, y, TESTO_TENUE)
     y = scrivi("Blender 4.2 LTS through 5.2+", corpo, y, TESTO_TENUE)
-    y = scrivi("644 verified checks, 15 releases, 2 add-ons live on Blender Extensions.",
+    y = scrivi("666+ verified checks, 17 releases, 2 add-ons live on Blender Extensions.",
                corpo, y, TESTO_TENUE)
 
     if y > ALT - 20:
@@ -141,7 +141,7 @@ def main():
     y_pannello = max(48, (ALT - blocco) // 2)
 
     pannelli = [
-        (foto_1, "DEF Controller Auto v0.2.0"),
+        (foto_1, "DEF Controller Auto v0.3.0"),
         (foto_2, "Intelligent UV Mapping v0.35.1"),
     ]
 
