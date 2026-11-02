@@ -13,7 +13,7 @@ CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer foc
 
 **Featured project: BBone to Bones (`v0.1.0`)**  
 Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
-[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo_v2.gif) | [1080p 60fps MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_showcase_1080p.mp4) | [GitHub Release v0.1.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.1.0) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
+[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo_v3.gif) | [1080p 60fps MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_showcase_1080p.mp4) | [GitHub Release v0.1.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.1.0) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
 ## Start Here
 
@@ -67,7 +67,7 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ### BBone to Bones: Bendy Bones to game-ready chains
 
-![BBone to Bones demo](assets/bbone_to_bones_demo_v2.gif)
+![BBone to Bones demo](assets/bbone_to_bones_demo_v3.gif)
 
 ### DEF Controller Auto: FK controller generation from a `DEF_` chain
 
