@@ -34,7 +34,7 @@ SORGENTE_2 = os.path.join(RADICE, r"_promo_review\INTELLIGENT_UV\iuv_featured_19
 # che vivono nel repository, cosi' il banner resta rigenerabile da chiunque.
 RISERVA_1 = os.path.join(RADICE, r"PieroFra\assets\def_controller_demo.gif")
 RISERVA_2 = os.path.join(RADICE, r"PieroFra\assets\intelligent_uv_demo.gif")
-USCITA = os.path.join(RADICE, "PieroFra", "assets", "banner.png")
+USCITA = os.path.join(RADICE, "PieroFra", "assets", "banner-2026-11.png")
 
 
 def sfondo():

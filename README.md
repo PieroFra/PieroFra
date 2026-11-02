@@ -1,4 +1,4 @@
-![Blender Technical Art & Add-on Development](assets/banner.png)
+![Blender Technical Art & Add-on Development](assets/banner-2026-11.png)
 
 # Pierfrancesco Diodato (`PieroFra`)
 
@@ -13,7 +13,7 @@ CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer foc
 
 **Featured project: DEF Controller Auto (`CTRL_DEF` v0.2.0)**  
 Generate production-ready FK rig controllers with shared custom shapes from `DEF_` bones in one click, with zero dependency cycles.  
-[Watch the live GIF demo](#def-controller-auto-fk-controller-generation-from-a-def_-chain) · [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.gif) · [1080p MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.mp4) · [Install from Blender Extensions](https://extensions.blender.org/add-ons/ctrl-def/) · [Documentation](https://github.com/PieroFra/def-controller-auto#readme)
+[Watch the live GIF demo](#def-controller-auto-fk-controller-generation-from-a-def_-chain) Â· [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.gif) Â· [1080p MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/def_controller_demo.mp4) Â· [Install from Blender Extensions](https://extensions.blender.org/add-ons/ctrl-def/) Â· [Documentation](https://github.com/PieroFra/def-controller-auto#readme)
 
 ## Start Here
 
@@ -82,7 +82,7 @@ All three projects are actively maintained with recurring verification passes:
 I am open to collaborations, Python/Blender tool development, technical art pipelines, and freelance work.
 
 - **GitHub Issues & Inquiries**: [@PieroFra](https://github.com/PieroFra) on GitHub (or open an issue on the relevant repository tracker)
-- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) · [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) · [Author profile](https://extensions.blender.org/author/96040/)
+- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) Â· [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) Â· [Author profile](https://extensions.blender.org/author/96040/)
 - **XERJ Corpus Hub**: [hub.xerj.org/contributors/PieroFra](https://hub.xerj.org/contributors/PieroFra)
 - **Reddit**: [u/Previous-Nebula7736](https://www.reddit.com/user/Previous-Nebula7736/) (release posts and workflow threads on `r/blender`)
 - **ArtStation**: [artstation.com/pierofra](https://www.artstation.com/pierofra/)
