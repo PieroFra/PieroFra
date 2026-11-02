@@ -22,7 +22,7 @@ Not sure which add-on to try first? Pick your workflow:
 The **Rigging Suite** is 3 independent add-ons: zero dependencies between them, auto-unified in the `Rigging Suite` tab when installed together.
 
 1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://github.com/PieroFra/bbone-to-bones)** (`v0.1.0`)
-2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.2.0`)
+2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.3.0`)
 3. **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** -> **[Auto Copy Transforms DEF (`A.C.T.D.`)](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** (`v1.3.0`)
 4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.35.1`)
 
@@ -34,7 +34,7 @@ Every project here ships with a deterministic headless regression suite, publish
 |---|---|
 | **Blender Compatibility** | Blender `4.2 LTS` through `5.2 LTS` (officially tested headless & GUI on 5.2 LTS) |
 | **Automated Headless Verification** | **666+ verified checks**: `644` in 12 suites on Auto Copy Transforms DEF, `22` headless + engine round-trip checks on BBone to Bones (in Godot 4.7.2/4.3 and Unity 6000.6), `14` smoke + `75` UI geometry checks on Intelligent UV |
-| **Published Releases** | **16 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `4` on CTRL_DEF up to `v0.2.0`, `3` on Intelligent UV up to `v0.35.1`, `1` on BBone to Bones `v0.1.0`) |
+| **Published Releases** | **17 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `5` on CTRL_DEF up to `v0.3.0`, `3` on Intelligent UV up to `v0.35.1`, `1` on BBone to Bones `v0.1.0`) |
 | **Official Blender Extensions** | **2 approved & live** (`ctrl-def` and `auto-copy-transforms-def`), **1 submitted** (`bbone-to-bones`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
 
 ## Add-ons
@@ -43,7 +43,7 @@ Every project here ships with a deterministic headless regression suite, publish
 | Add-on | Version | Extensions | Repo | Tracker |
 |---|---|---|---|---|
 | BBone to Bones | v0.1.0 | *Submitted / GitHub Release* | [PieroFra/bbone-to-bones](https://github.com/PieroFra/bbone-to-bones) | [Issues](https://github.com/PieroFra/bbone-to-bones/issues) |
-| DEF Controller Auto (`CTRL_DEF`) | v0.2.0 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
+| DEF Controller Auto (`CTRL_DEF`) | v0.3.0 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
 | Auto Copy Transforms DEF (`A.C.T.D.`) | v1.3.0 | [Live listing](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) | [PieroFra/auto-copy-transforms-def](https://github.com/PieroFra/auto-copy-transforms-def) | [Issues](https://github.com/PieroFra/auto-copy-transforms-def/issues) |
 | Intelligent UV Mapping | v0.35.1 | *GitHub Release* | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
 
@@ -51,7 +51,7 @@ Every project here ships with a deterministic headless regression suite, publish
 
 Converts Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`). Submitted to Blender Extensions and published as [GitHub Release v0.1.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.1.0).
 
-### DEF Controller Auto (`CTRL_DEF` v0.2.0)
+### DEF Controller Auto (`CTRL_DEF` v0.3.0)
 
 Generates tracked, color-coded FK controllers with shared custom shapes from the `DEF_` chain. Zero dependency cycles, deterministic naming, and a 1-click synergy with Auto Copy Transforms DEF for a complete controller + constraint pipeline.
 
