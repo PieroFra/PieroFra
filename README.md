@@ -4,7 +4,7 @@
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/PieroFra/badge.svg)](https://hub.xerj.org/contributors/PieroFra)
 [![Blender](https://img.shields.io/badge/Blender-4.2%20LTS--5.2%2B-EA7600?logo=blender&logoColor=white)](https://www.blender.org/)
-[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-760%2B%20headless%20assertions-2EA043)](#by-the-numbers)
+[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-644%2B%20verified%20checks-2EA043)](#by-the-numbers)
 [![License](https://img.shields.io/badge/License-GPL--3.0--or--later-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 > **I build production-ready Blender tools that make rigging and UV workflows faster, safer and reversible.**
@@ -30,8 +30,8 @@ Every project here ships with a deterministic headless regression suite, publish
 | Metric | Value |
 |---|---|
 | **Blender Compatibility** | Blender `4.2 LTS` through `5.2 LTS` (officially tested headless & GUI on 5.2 LTS) |
-| **Automated Headless Verification** | **760+ checks** across the suite (`644` checks in 12 suites on A.C.T.D., `102` checks on CTRL_DEF, `14` smoke checks + `75` deterministic UI label geometry checks on Intelligent UV) |
-| **Published Releases** | **11 tagged releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `2` on CTRL_DEF up to `v0.2.0`, `1` on Intelligent UV `v0.35.1`) |
+| **Automated Headless Verification** | **644 verified checks** in the A.C.T.D. suite alone (12 suites, headless, `VERIFY_OK`), plus smoke and end-to-end suites on the other two add-ons (`14` smoke checks and `75` deterministic UI label geometry checks on Intelligent UV) |
+| **Published Releases** | **15 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `4` on CTRL_DEF up to `v0.2.0`, `3` on Intelligent UV up to `v0.35.1`) |
 | **Official Blender Extensions** | **2 approved & live** (`ctrl-def` and `auto-copy-transforms-def`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
 
 ## Add-ons
