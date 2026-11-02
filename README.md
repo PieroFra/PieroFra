@@ -19,7 +19,7 @@ Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (
 
 Not sure which add-on to try first? Pick your workflow:
 
-The **Rigging Suite** is 3 independent add-ons: zero dependencies between them, auto-unified in the `Rigging Suite` tab when installed together.
+The **Rigging Suite** consists of **3 independent rigging add-ons** (zero dependencies between them, automatically unified into a single **Rigging Suite** tab when installed together), **plus Intelligent UV Mapping** for texturing and game-engine UV prep. Pick your workflow:
 
 1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://github.com/PieroFra/bbone-to-bones)** (`v0.1.0`)
 2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.3.0`)
