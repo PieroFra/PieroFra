@@ -76,6 +76,8 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ![ACTD demo](assets/actd_demo.gif)
 
+[1080p 60fps MP4 showcase](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/actd_showcase_1080p.mp4)
+
 ### Intelligent UV Mapping: curvature-driven unwrap and texel density
 
 ![Intelligent UV demo](assets/intelligent_uv_demo.gif)
