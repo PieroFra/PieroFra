@@ -1,4 +1,4 @@
-
+﻿
 # Pierfrancesco Diodato (`PieroFra`)
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/PieroFra/badge.svg)](https://hub.xerj.org/contributors/PieroFra)
@@ -23,7 +23,7 @@ The **Rigging Suite** consists of **3 independent rigging add-ons** (zero depend
 1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://extensions.blender.org/add-ons/bbone-to-bones/)** (`v0.2.1`)
 2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.3.3`)
 3. **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** -> **[Auto Copy Transforms DEF (`A.C.T.D.`)](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** (`v1.3.1`)
-4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.36.2`)
+4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.36.3`)
 
 ## By the Numbers
 
@@ -43,7 +43,7 @@ Every project here ships with a deterministic headless regression suite, publish
 | BBone to Bones | v0.2.1 | [Live listing](https://extensions.blender.org/add-ons/bbone-to-bones/) | [PieroFra/bbone-to-bones](https://github.com/PieroFra/bbone-to-bones) | [Issues](https://github.com/PieroFra/bbone-to-bones/issues) |
 | DEF Controller Auto (`CTRL_DEF`) | v0.3.3 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
 | Auto Copy Transforms DEF (`A.C.T.D.`) | v1.3.1 | [Live listing](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) | [PieroFra/auto-copy-transforms-def](https://github.com/PieroFra/auto-copy-transforms-def) | [Issues](https://github.com/PieroFra/auto-copy-transforms-def/issues) |
-| Intelligent UV Mapping | v0.36.2 | *GitHub Release* ([v0.36.2](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.2), optional RizomUV bridge) | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
+| Intelligent UV Mapping | v0.36.3 | *GitHub Release* ([v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3), optional RizomUV bridge) | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
 
 ### BBone to Bones (v0.2.1)
 
@@ -57,7 +57,7 @@ Generates tracked, color-coded FK controllers with shared custom shapes from the
 
 Deterministic automation of Copy Transforms / Rotation / Location / Scale constraints between a source armature (`MCH_`) and destination armatures (`DEF_`, `ORG_`). Live preview, pattern learning, and a reversible JSON registry: nothing is baked in, everything can be undone. Approved on [Blender Extensions](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) and indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/PieroFra).
 
-### Intelligent UV Mapping (v0.36.2)
+### Intelligent UV Mapping (v0.36.3)
 
 Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning, global texel density control, UDIM multi-tile workflows, and an optional bridge with RizomUV via Live Link, Lua scripting, or full automation.
 
