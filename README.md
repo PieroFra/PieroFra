@@ -61,6 +61,8 @@ Deterministic automation of Copy Transforms / Rotation / Location / Scale constr
 
 Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning, global texel density control, UDIM multi-tile workflows, and an optional bridge with RizomUV via Live Link, Lua scripting, or full automation.
 
+[GitHub Release v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3) | [Direct ZIP Download](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv-0.36.3.zip) | [Documentation](https://github.com/PieroFra/intelligent_uv#readme)
+
 ## Demos
 
 ### BBone to Bones: Bendy Bones to game-ready chains
@@ -98,7 +100,7 @@ I am open to collaborations, Python/Blender tool development, technical art pipe
 > **What rigging or UV step is still slowing you down?** Open an issue on any tracker with the workflow you want automated next.
 
 - **GitHub Issues & Inquiries**: [@PieroFra](https://github.com/PieroFra) on GitHub (or open an issue on the relevant repository tracker)
-- **Blender Extensions**: [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) | [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) | [Author profile](https://extensions.blender.org/author/96040/)
+- **Blender Extensions**: [BBone to Bones](https://extensions.blender.org/add-ons/bbone-to-bones/) (approved & live) | [CTRL_DEF](https://extensions.blender.org/add-ons/ctrl-def/) (approved & live) | [A.C.T.D.](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) (approved & live) | [Author profile](https://extensions.blender.org/author/96040/)
 - **XERJ Corpus Hub**: [hub.xerj.org/contributors/PieroFra](https://hub.xerj.org/contributors/PieroFra)
 - **Reddit**: [u/Previous-Nebula7736](https://www.reddit.com/user/Previous-Nebula7736/) (release posts and workflow threads on `r/blender`)
 - **ArtStation**: [artstation.com/pierofra](https://www.artstation.com/pierofra/)
