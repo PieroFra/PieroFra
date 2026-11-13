@@ -3,16 +3,16 @@
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/PieroFra/badge.svg)](https://hub.xerj.org/contributors/PieroFra)
 [![Blender](https://img.shields.io/badge/Blender-4.2%20LTS--5.2%2B-EA7600?logo=blender&logoColor=white)](https://www.blender.org/)
-[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-666%2B%20verified%20checks-2EA043)](#by-the-numbers)
+[![Automated Checks](https://img.shields.io/badge/Automated%20Checks-828%2B%20verified%20checks-2EA043)](#by-the-numbers)
 [![License](https://img.shields.io/badge/License-GPL--3.0--or--later-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 > **I build production-ready Blender tools that make rigging and UV workflows faster, safer and reversible.**
 
 CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer focused on rigging automation, non-destructive deformation workflows, and UV pipelines for Blender 4.2 LTS through 5.2+.
 
-**Featured project: BBone to Bones (`v0.2.0`)**  
+**Featured project: BBone to Bones (`v0.2.1`)**  
 Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
-[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo_v3.gif) | [1080p 60fps MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_showcase_1080p.mp4) | [GitHub Release v0.2.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.0) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
+[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo_v3.gif) | [1080p 60fps MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_showcase_1080p.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
 ## Start Here
 
@@ -20,10 +20,10 @@ Not sure which add-on to try first? Pick your workflow:
 
 The **Rigging Suite** consists of **3 independent rigging add-ons** (zero dependencies between them, automatically unified into a single **Rigging Suite** tab when installed together), **plus Intelligent UV Mapping** for texturing and game-engine UV prep. Pick your workflow:
 
-1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://github.com/PieroFra/bbone-to-bones)** (`v0.2.0`)
-2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.3.0`)
-3. **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** -> **[Auto Copy Transforms DEF (`A.C.T.D.`)](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** (`v1.3.0`)
-4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.35.1`)
+1. **Exporting Bendy Bones to Unity, Unreal or Godot?** -> **[BBone to Bones](https://extensions.blender.org/add-ons/bbone-to-bones/)** (`v0.2.1`)
+2. **Generating FK controllers from an existing `DEF_` skeleton?** -> **[DEF Controller Auto (`CTRL_DEF`)](https://extensions.blender.org/add-ons/ctrl-def/)** (`v0.3.3`)
+3. **Wiring `MCH_` / `ORG_` / `DEF_` constraints across one or two armatures?** -> **[Auto Copy Transforms DEF (`A.C.T.D.`)](https://extensions.blender.org/add-ons/auto-copy-transforms-def/)** (`v1.3.1`)
+4. **Preparing meshes for baking or game engines?** -> **[Intelligent UV Mapping](https://github.com/PieroFra/intelligent_uv)** (`v0.36.2`)
 
 ## By the Numbers
 
@@ -32,25 +32,24 @@ Every project here ships with a deterministic headless regression suite, publish
 | Metric | Value |
 |---|---|
 | **Blender Compatibility** | Blender `4.2 LTS` through `5.2 LTS` (officially tested headless & GUI on 5.2 LTS) |
-| **Automated Headless Verification** | **666+ verified checks**: `644` in 12 suites on Auto Copy Transforms DEF, `22` headless + engine round-trip checks on BBone to Bones (in Godot 4.7.2/4.3 and Unity 6000.6), `14` smoke + `75` UI geometry checks on Intelligent UV |
-| **Published Releases** | **19 published releases** with SHA256 checksums (`8` on A.C.T.D. up to `v1.3.0`, `5` on CTRL_DEF up to `v0.3.0`, `3` on Intelligent UV up to `v0.35.1`, `3` on BBone to Bones up to `v0.2.0`) |
-| **Official Blender Extensions** | **2 approved & live** (`ctrl-def` and `auto-copy-transforms-def`), **1 submitted** (`bbone-to-bones`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
+| **Automated Headless Verification** | **828+ verified checks**: `652` in 12 suites on Auto Copy Transforms DEF, `146` in 29 suites on Intelligent UV (CI on Blender 4.2 & 5.2), `24+` headless checks plus ZIP install and Godot/Unity round-trip on BBone to Bones, `6` e2e checks on CTRL_DEF |
+| **Official Blender Extensions** | **3 approved & live** (`bbone-to-bones`, `ctrl-def`, `auto-copy-transforms-def`), **0 external runtime dependencies** (100% Python stdlib + `bpy`) |
 
 ## Add-ons
 
 <!-- AUTO-VERSIONS:START -->
 | Add-on | Version | Extensions | Repo | Tracker |
 |---|---|---|---|---|
-| BBone to Bones | v0.2.0 | *Submitted / GitHub Release* | [PieroFra/bbone-to-bones](https://github.com/PieroFra/bbone-to-bones) | [Issues](https://github.com/PieroFra/bbone-to-bones/issues) |
-| DEF Controller Auto (`CTRL_DEF`) | v0.3.0 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
+| BBone to Bones | v0.2.1 | [Live listing](https://extensions.blender.org/add-ons/bbone-to-bones/) | [PieroFra/bbone-to-bones](https://github.com/PieroFra/bbone-to-bones) | [Issues](https://github.com/PieroFra/bbone-to-bones/issues) |
+| DEF Controller Auto (`CTRL_DEF`) | v0.3.3 | [Live listing](https://extensions.blender.org/add-ons/ctrl-def/) | [PieroFra/def-controller-auto](https://github.com/PieroFra/def-controller-auto) | [Issues](https://github.com/PieroFra/def-controller-auto/issues) |
 | Auto Copy Transforms DEF (`A.C.T.D.`) | v1.3.1 | [Live listing](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) | [PieroFra/auto-copy-transforms-def](https://github.com/PieroFra/auto-copy-transforms-def) | [Issues](https://github.com/PieroFra/auto-copy-transforms-def/issues) |
-| Intelligent UV Mapping | v0.35.1 | *GitHub Release* | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
+| Intelligent UV Mapping | v0.36.2 | *GitHub Release* ([v0.36.2](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.2), optional RizomUV bridge) | [PieroFra/intelligent_uv](https://github.com/PieroFra/intelligent_uv) | [Issues](https://github.com/PieroFra/intelligent_uv/issues) |<!-- AUTO-VERSIONS:END -->
 
-### BBone to Bones (v0.2.0)
+### BBone to Bones (v0.2.1)
 
-Converts Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`). Submitted to Blender Extensions and published as [GitHub Release v0.2.0](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.0).
+Converts Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`). Approved and live on [Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) and published as [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1).
 
-### DEF Controller Auto (`CTRL_DEF` v0.3.0)
+### DEF Controller Auto (`CTRL_DEF` v0.3.3)
 
 Generates tracked, color-coded FK controllers with shared custom shapes from the `DEF_` chain. Zero dependency cycles, deterministic naming, and a 1-click synergy with Auto Copy Transforms DEF for a complete controller + constraint pipeline.
 
@@ -58,7 +57,7 @@ Generates tracked, color-coded FK controllers with shared custom shapes from the
 
 Deterministic automation of Copy Transforms / Rotation / Location / Scale constraints between a source armature (`MCH_`) and destination armatures (`DEF_`, `ORG_`). Live preview, pattern learning, and a reversible JSON registry: nothing is baked in, everything can be undone. Approved on [Blender Extensions](https://extensions.blender.org/add-ons/auto-copy-transforms-def/) and indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/PieroFra).
 
-### Intelligent UV Mapping (v0.35.1)
+### Intelligent UV Mapping (v0.36.2)
 
 Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning, global texel density control, UDIM multi-tile workflows, and an optional bridge with RizomUV via Live Link, Lua scripting, or full automation.
 
@@ -86,11 +85,11 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 All four projects are actively maintained with recurring verification passes:
 
-- **BBone to Bones**: Blender Extensions review follow-up, engine round-trip regression on Godot and Unity, and release archive SHA256 validation.
+- **BBone to Bones**: engine round-trip regression on Godot and Unity, and release archive SHA256 validation.
 
 - **DEF Controller Auto (`CTRL_DEF`)**: custom widget library presets, multi-limb batch templates, and Blender 4.2 - 5.2 LTS CI matrix.
 - **Auto Copy Transforms DEF (`A.C.T.D.`)**: one-click restore operator from `actd_replace_backup_*.json` snapshots, extended multi-armature batch rules, and automated release archive validation in CI.
-- **Intelligent UV Mapping**: headless end-to-end UV pipeline regression suite, clean-install gate verification on virgin Blender profiles, and Blender Extensions submission.
+- **Intelligent UV Mapping**: headless end-to-end UV pipeline regression suite and clean-install gate verification on virgin Blender profiles.
 
 ## Contact & Collaboration
 
