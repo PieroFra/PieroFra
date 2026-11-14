@@ -81,7 +81,7 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ### Intelligent UV Mapping: curvature-driven unwrap and texel density
 
-![Intelligent UV demo](assets/intelligent_uv_demo.gif)
+[v0.36.3 demo video (16:9 MP4)](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv_0363_16x9.mp4)
 
 ## Roadmap & Active Maintenance
 
