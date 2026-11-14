@@ -61,7 +61,7 @@ Deterministic automation of Copy Transforms / Rotation / Location / Scale constr
 
 Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning, global texel density control, UDIM multi-tile workflows, and an optional bridge with RizomUV via Live Link, Lua scripting, or full automation.
 
-[GitHub Release v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3) | [Direct ZIP Download](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv-0.36.3.zip) | [Documentation](https://github.com/PieroFra/intelligent_uv#readme)
+[GitHub Release v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3) | [Direct ZIP Download](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv-0.36.3.zip) | [Documentation](https://github.com/PieroFra/intelligent_uv#readme) | [v0.36.3 demo video (16:9 MP4)](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv_0363_16x9.mp4)
 
 ## Demos
 
