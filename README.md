@@ -14,6 +14,10 @@ CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer foc
 Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
 [Vertical 9:16 MP4](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_9x16.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
+## Blender Pipeline Suite (4 Free Open-Source Add-ons)
+
+https://github.com/user-attachments/assets/fe5c3579-d9e1-4ee6-a5ea-b08252c45f19
+
 ## Start Here
 
 Not sure which add-on to try first? Pick your workflow:
