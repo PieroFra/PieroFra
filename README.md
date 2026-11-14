@@ -75,9 +75,9 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ### Auto Copy Transforms DEF: constraint automation with live preview
 
-![ACTD demo](assets/actd_demo.gif)
+[Watch the v1.3.1 demo video (16:9 MP4)](https://github.com/PieroFra/auto-copy-transforms-def/releases/download/v1.3.1/actd_131_16x9.mp4)
 
-[1080p 60fps MP4 showcase](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/actd_showcase_1080p.mp4)
+[Vertical 9:16 cut](https://github.com/PieroFra/auto-copy-transforms-def/releases/download/v1.3.1/actd_131_9x16.mp4)
 
 ### Intelligent UV Mapping: curvature-driven unwrap and texel density
 
