@@ -71,7 +71,9 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ### DEF Controller Auto: FK controller generation from a `DEF_` chain
 
-![DEF Controller Auto demo](assets/def_controller_demo.gif)
+[Watch the v0.3.3 demo video (16:9 MP4)](https://github.com/PieroFra/def-controller-auto/releases/download/v0.3.3/ctrldef_033_16x9.mp4)
+
+[Vertical 9:16 cut](https://github.com/PieroFra/def-controller-auto/releases/download/v0.3.3/ctrldef_033_9x16.mp4)
 
 ### Auto Copy Transforms DEF: constraint automation with live preview
 
