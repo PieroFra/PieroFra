@@ -1,4 +1,4 @@
-﻿
+
 # Pierfrancesco Diodato (`PieroFra`)
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/PieroFra/badge.svg)](https://hub.xerj.org/contributors/PieroFra)
@@ -12,7 +12,7 @@ CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer foc
 
 **Featured project: BBone to Bones (`v0.2.1`)**  
 Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
-[Watch the live GIF demo](#bbone-to-bones-bendy-bones-to-game-ready-chains) | [Direct GIF](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_to_bones_demo_v3.gif) | [1080p 60fps MP4 video](https://raw.githubusercontent.com/PieroFra/PieroFra/main/assets/bbone_showcase_1080p.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
+[Watch the v0.2.1 demo video (16:9 MP4)](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_16x9.mp4) | [Vertical 9:16 MP4](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_9x16.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
 ## Start Here
 
@@ -67,7 +67,7 @@ Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning
 
 ### BBone to Bones: Bendy Bones to game-ready chains
 
-![BBone to Bones demo](assets/bbone_to_bones_demo_v3.gif)
+[Watch the v0.2.1 demo video (16:9 MP4)](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_16x9.mp4)
 
 ### DEF Controller Auto: FK controller generation from a `DEF_` chain
 
