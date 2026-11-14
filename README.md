@@ -12,7 +12,7 @@ CS & Game Dev Student | Aspiring Technical Artist & Blender Add-on Developer foc
 
 **Featured project: BBone to Bones (`v0.2.1`)**  
 Convert Blender Bendy Bones (`bbone_segments > 1`) into game-ready bone chains (`<name>_seg_00..XX`) with curved joint boundary blending (`< 0.001 m`), one-click deform-only influence cap, non-destructive `Revert to BBones`, and 5 engine export presets (`UNITY`, `UNITY_GLTF`, `UNREAL`, `UNREAL_GLTF`, `GODOT`).  
-[Watch the v0.2.1 demo video (16:9 MP4)](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_16x9.mp4) | [Vertical 9:16 MP4](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_9x16.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
+[Vertical 9:16 MP4](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_9x16.mp4) | [Live on Blender Extensions](https://extensions.blender.org/add-ons/bbone-to-bones/) | [GitHub Release v0.2.1](https://github.com/PieroFra/bbone-to-bones/releases/tag/v0.2.1) | [Documentation](https://github.com/PieroFra/bbone-to-bones#readme)
 
 ## Start Here
 
@@ -61,29 +61,29 @@ Deterministic automation of Copy Transforms / Rotation / Location / Scale constr
 
 Automated UV unwrapping driven by curvature (VSA shape clustering), seam pinning, global texel density control, UDIM multi-tile workflows, and an optional bridge with RizomUV via Live Link, Lua scripting, or full automation.
 
-[GitHub Release v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3) | [Direct ZIP Download](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv-0.36.3.zip) | [Documentation](https://github.com/PieroFra/intelligent_uv#readme) | [v0.36.3 demo video (16:9 MP4)](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv_0363_16x9.mp4)
+[GitHub Release v0.36.3](https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.3) | [Direct ZIP Download](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv-0.36.3.zip) | [Documentation](https://github.com/PieroFra/intelligent_uv#readme)
 
 ## Demos
 
 ### BBone to Bones: Bendy Bones to game-ready chains
 
-[Watch the v0.2.1 demo video (16:9 MP4)](https://github.com/PieroFra/bbone-to-bones/releases/download/v0.2.1/bbone_021_16x9.mp4)
+https://github.com/user-attachments/assets/d49f447e-81c0-4146-9226-3ae89dd0cf38
 
 ### DEF Controller Auto: FK controller generation from a `DEF_` chain
 
-[Watch the v0.3.3 demo video (16:9 MP4)](https://github.com/PieroFra/def-controller-auto/releases/download/v0.3.3/ctrldef_033_16x9.mp4)
+https://github.com/user-attachments/assets/d5d18de4-0b35-4eca-9a22-9807d5ef4429
 
 [Vertical 9:16 cut](https://github.com/PieroFra/def-controller-auto/releases/download/v0.3.3/ctrldef_033_9x16.mp4)
 
 ### Auto Copy Transforms DEF: constraint automation with live preview
 
-[Watch the v1.3.1 demo video (16:9 MP4)](https://github.com/PieroFra/auto-copy-transforms-def/releases/download/v1.3.1/actd_131_16x9.mp4)
+https://github.com/user-attachments/assets/c70e3be3-eef7-4e84-a163-6c28bcfa514c
 
 [Vertical 9:16 cut](https://github.com/PieroFra/auto-copy-transforms-def/releases/download/v1.3.1/actd_131_9x16.mp4)
 
 ### Intelligent UV Mapping: curvature-driven unwrap and texel density
 
-[v0.36.3 demo video (16:9 MP4)](https://github.com/PieroFra/intelligent_uv/releases/download/v0.36.3/intelligent_uv_0363_16x9.mp4)
+https://github.com/user-attachments/assets/01327fa9-2383-42e1-8653-909fab2f58db
 
 ## Roadmap & Active Maintenance
 
